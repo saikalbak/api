@@ -1,0 +1,79 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper{
+    background-color: #272B33;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 85px;
+    color: #202329;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 5rem 2rem 3rem 2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 95%;
+    padding: 2rem 0;
+}
+.card{
+    border: none;
+    display: flex;
+    height: 200px;
+    transition: .6s;
+    background-color: #3C3E44;
+    color: white;
+    border-radius: 10px;
+}
+.card:hover{
+    scale: 1.1;
+}
+.card-content{
+    padding: 0 10px;
+}
+.img{
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+}
+.name{
+    font-size: 25px;
+}
+.gender{
+    font-size: 14px;
+}
+.status{
+    font-size: 18px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: greenyellow;
+}
+.gray{
+    color: gray;
+}
+.female{
+    border-bottom: 3px solid pink;
+    width: 48px;
+}
+.Male{
+    border-bottom: 3px solid rgb(135, 191, 237);
+    width: 33px;
+}
